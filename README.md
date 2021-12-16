@@ -55,7 +55,7 @@ INSERT INTO dbo.customers VALUES(
 * Load up the [init_env.ipynb](init_env.ipynb) notebook and update your credentials. Be sure that your IP is in the firewall for the SQL Server you are targeting and shutdown the notebook when it is complete.
   * This notebook will connect to the SQL server and create a Hive table in your spark environment.
   * This Hive table is backed by a delta table which contains the initial data and schema from your database.
-* Now we need to enable CDC on SQL Server and insert a more records:
+* Now we need to enable CDC on SQL Server and insert more records:
 ```
 -- enable CDC on the database
 EXEC sys.sp_cdc_enable_db;

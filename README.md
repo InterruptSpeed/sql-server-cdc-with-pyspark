@@ -31,7 +31,7 @@ $ pip install -r requirements.txt
   * pyspark to create the initial delta and hive tables
   * pyspark to "continuously" read from the CDC tables and merge changes into delta where "continuously" means frequent micro-batches.
 
-[![solution design diagram](design.png)](design.png)
+[![solution design diagram](design.png?123)](design.png?123)
 ## Tutorial
 
 * The backend of our line of business application is found in [app_db.sql](app_db.sql). Start by executing:
